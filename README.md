@@ -11,7 +11,7 @@ The Cake Shop website offers various features such as:<br/>
 </ul>
 
 <br/>
-Output :
+Output : <br/>
 ![image](https://github.com/tanishahaha/cake-shop/assets/123636127/cc7ed8b2-5d43-4947-af6f-b9626e367c13)
 <br/>
 ![image](https://github.com/tanishahaha/cake-shop/assets/123636127/39149d33-ad87-4cd8-9d03-e63740dd4a94)

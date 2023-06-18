@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake Shop</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eedbcd0c96.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="header">
+        <div class="logo">
+          <a href="#" onclick="window.location.href='home.html';">
+            <img src="imgs/Tanisha.png" alt="" class="imglogo" />
+          </a>
+        </div>
+  
+        <div>
+          <ul id="navbar">
+            <li>
+              <a href="home.html">Home</a>
+            </li>
+  
+            <li>
+              <a href="shop.html">Shop</a>
+            </li>
+  
+            <li>
+              <a href="blog.html" class="active">Blog</a>
+            </li>
+  
+            <li>
+              <a href="about.html">About</a>
+            </li>
+  
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+  
+            <div class="js-shop-quantity pro-quantity"></div>
+            <li>
+              <i
+                id="shopbag"
+                class="fa-sharp fa-solid fa-cart-shopping js-cart-click"
+              ></i>
+            </li>
+            <a href="#" id="close" onclick="remove()"
+              ><i class="fa-solid fa-xmark"></i
+            ></a>
+          </ul>
+        </div>
+        <div id="mobile">
+          <div class="js-shop-quantity pro-quantity"></div>
+          <i class="fa-sharp fa-solid fa-cart-shopping js-cart-click"></i>
+          <i id="bar" class="fas fa-outdent" onclick="show()"></i>
+        </div>
+    </section>
+
+    <section id="pageheader" class="blogheader">
+      <h2>#readmore</h2>
+      <p>
+        Discover Delicious Recipes, Baking Tips, and Cake Decorating
+        Inspiration!
+      </p>
+    </section>
+
+    <section id="blog">
+      <div class="blogbox">
+        <div class="blogimg">
+          <img src="imgs/blog1.jpg" alt="" />
+        </div>
+
+        <div class="blogdets">
+          <h4>
+            Indulge in the Delightful Flavors of a Freshly Baked Fruit Cake
+          </h4>
+          <p>
+            Dive into the world of a mouthwatering fruit cake that combines the
+            perfect blend of sweetness and tanginess. Discover the secrets to
+            baking a moist and flavorful fruit cake using seasonal fruits,
+            wholesome ingredients, and expert techniques. Get ready to savor
+            every bite of this classic dessert that's sure to be a highlight of
+            any celebration or cozy gathering.
+          </p>
+        </div>
+        <h1>13/01</h1>
+      </div>
+      <div class="blogbox">
+        <div class="blogimg">
+          <img src="imgs/blog2.jpeg" alt="" />
+        </div>
+
+        <div class="blogdets">
+          <h4>Indulge in the Divine Decadence of a Homemade Chocolate Cake</h4>
+          <p>
+            Prepare to embark on a chocolate lover's dream as we dive into the
+            world of a heavenly homemade chocolate cake. In this blog post, we
+            unveil the secrets to creating a moist, rich, and irresistible
+            chocolate cake that will leave your taste buds in awe. From
+            selecting the finest quality cocoa powder to mastering the perfect
+            balance of sweetness, this recipe and guide will walk you through
+            every step of the process.
+          </p>
+        </div>
+        <h1>15/02</h1>
+      </div>
+      <div class="blogbox">
+        <div class="blogimg">
+          <img src="imgs/blog3.jpeg" alt="" />
+        </div>
+
+        <div class="blogdets">
+          <h4>
+            Indulge in the Irresistible Bliss of a Nutty Chocolate Chip Pie
+          </h4>
+          <p>
+            Get ready to experience pure dessert heaven with a delectable
+            combination of crunchy nuts and luscious chocolate chips in a
+            mouthwatering pie. This blog post takes you on a delightful journey
+            as we explore the art of creating a homemade pie that will satisfy
+            your sweet tooth and leave you craving for more. Discover the
+            perfect balance of flavors and textures, from the rich and gooey
+            chocolate chips to the delightful crunch of roasted nuts.
+          </p>
+        </div>
+        <h1>11/03</h1>
+      </div>
+    </section>
+
+    <section id="newslater">
+      <div class="newstxt">
+        <h4>Sign up for Newsletters</h4>
+        <p>Get E-mail updates about our latest cakes and special offers.</p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your E-mail Address" />
+        <button>Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="imgs/Tanisha.png" alt="" class="footlogo" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address : </strong>Shop No-12, Turners Road, Street 121,
+          India.
+        </p>
+        <p><strong>Phone : </strong>+91 4678382617</p>
+        <p><strong>Hours : </strong>9:00 am - 10:00 pm</p>
+
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">SIgn In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play Store</p>
+        <img src="imgs/gp.png" alt="" class="footlogo2" />
+        <p>Secured payment Gateways</p>
+        <img src="imgs/ppay.png" alt="" class="footlogo3" />
+      </div>
+
+      <div class="copyright">
+        <p>Copyright @ 2023 by Tanisha's Cake Shop - Html Css Js</p>
+      </div>
+    </footer>
+
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/products.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>

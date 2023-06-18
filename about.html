@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <script
+      src="https://kit.fontawesome.com/eedbcd0c96.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="header">
+        <div class="logo">
+          <a href="#" onclick="window.location.href='home.html';">
+            <img src="imgs/Tanisha.png" alt="" class="imglogo" />
+          </a>
+        </div>
+  
+        <div>
+          <ul id="navbar">
+            <li>
+              <a href="home.html">Home</a>
+            </li>
+  
+            <li>
+              <a href="shop.html">Shop</a>
+            </li>
+  
+            <li>
+              <a href="blog.html">Blog</a>
+            </li>
+  
+            <li>
+              <a href="about.html" class="active">About</a>
+            </li>
+  
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+  
+            <div class="js-shop-quantity pro-quantity"></div>
+            <li>
+              <i
+                id="shopbag"
+                class="fa-sharp fa-solid fa-cart-shopping js-cart-click"
+              ></i>
+            </li>
+            <a href="#" id="close" onclick="remove()"
+              ><i class="fa-solid fa-xmark"></i
+            ></a>
+          </ul>
+        </div>
+        <div id="mobile">
+          <div class="js-shop-quantity pro-quantity"></div>
+          <i class="fa-sharp fa-solid fa-cart-shopping js-cart-click"></i>
+          <i id="bar" class="fas fa-outdent" onclick="show()"></i>
+        </div>
+    </section>
+
+    <section id="pageheader" class="aboutheader">
+      <h2>#KnowUs</h2>
+      <p>Serving Sweet Delights: Discover the Story Behind Our Cake Shop</p>
+    </section>
+
+    <div id="aboutdiv" class="section-p1">
+      <img src="imgs/about.jpeg" alt="" />
+      <div>
+        <h2>Who are we ?</h2>
+        <p>
+          At Tanisha's Cake Shop, we are a team of dedicated and passionate
+          bakers on a mission to create unforgettable cake experiences. With our
+          expertise and love for baking, we pour our hearts into crafting the
+          most delicious and visually stunning cakes for every occasion. From
+          elegant wedding cakes to whimsical birthday creations, we believe that
+          every celebration deserves a centerpiece that not only looks
+          incredible but also tastes divine. Using only the finest ingredients,
+          we meticulously bake and decorate each cake to perfection, ensuring
+          that every bite is a moment of pure indulgence. We are committed to
+          exceeding your expectations, bringing smiles to faces, and creating
+          memories that last a lifetime with our delectable creations. Welcome
+          to our cake shop, where sweetness and creativity blend harmoniously to
+          delight your senses.
+        </p>
+
+        <marquee behavior="" direction=""
+          >Where Every Slice is a Sweet Delight - Welcome to Tanisha's Cake
+          Shop</marquee
+        >
+      </div>
+    </div>
+
+    <section id="feature" class="section-p1">
+      <div class="featurebox">
+        <img src="imgs/fs.png" alt="" class="fsimg" />
+        <h4>Free Shipping</h4>
+      </div>
+      <div class="featurebox">
+        <img src="imgs/oo.png" alt="" class="fsimg" />
+        <h4>Order Online</h4>
+      </div>
+      <div class="featurebox">
+        <img src="imgs/sm.png" alt="" class="fsimg" />
+        <h4>Save Money</h4>
+      </div>
+      <div class="featurebox">
+        <img src="imgs/pp.png" alt="" class="fsimg" />
+        <h4>Promotions</h4>
+      </div>
+      <div class="featurebox">
+        <img src="imgs/hs.png" alt="" class="fsimg" />
+        <h4>Happy Sell</h4>
+      </div>
+      <div class="featurebox">
+        <img src="imgs/tss.png" alt="" class="fsimg" />
+        <h4>24/7 Support</h4>
+      </div>
+    </section>
+    <section id="newslater">
+      <div class="newstxt">
+        <h4>Sign up for Newsletters</h4>
+        <p>Get E-mail updates about our latest cakes and special offers.</p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your E-mail Address" />
+        <button>Sign Up</button>
+      </div>
+    </section>
+    <footer class="section-p1">
+      <div class="col">
+        <img src="imgs/Tanisha.png" alt="" class="footlogo" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address : </strong>Shop No-12, Turners Road, Street 121,
+          India.
+        </p>
+        <p><strong>Phone : </strong>+91 4678382617</p>
+        <p><strong>Hours : </strong>9:00 am - 10:00 pm</p>
+
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">SIgn In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play Store</p>
+        <img src="imgs/gp.png" alt="" class="footlogo2" />
+        <p>Secured payment Gateways</p>
+        <img src="imgs/ppay.png" alt="" class="footlogo3" />
+      </div>
+
+      <div class="copyright">
+        <p>Copyright @ 2023 by Tanisha's Cake Shop - Html Css Js</p>
+      </div>
+    </footer>
+
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/products.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>
